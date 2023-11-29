@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica;
+    scroll-behavior: smooth;
+    width: 100%;
+    height: auto;
+}
+
+span{
+    color: #4DCDFF;
+  }
+
+nav{
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9a9a9a08;
+    color: #FFFFFF;
+    position: fixed;
+}
+
+.logo{
+    margin-right: auto;
+    font-size: 35px;
+    font-weight: bold;
+    color: #4DCDFF;
+    padding: 10px;
+}
+
+.btn-nav{
+    margin-right: 400px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    background-color: #64d3ff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-nav:hover{
+  background-color: #4089a6;
+}
+
+.btn-nav a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+#active{
+  color: #4DCDFF;
+  border-bottom: 3px solid #4DCDFF;
+}
+
+nav li{
+    display: flex;
+}
+
+li a{
+    margin: 10px 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+li a:hover{
+    color: #4DCDFF;
+    border-bottom: 3px solid #4DCDFF;
+}
+
+.conten1{
+    background-image: url("../Image/bg1.jpg");
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    color: #FFFFFF;
+}
+
+.cover-project{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.cover-project h1{
+    font-size: 40px;
+    margin: 20px;
+}
+
+.cover-project p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.cover-card{
+    display: flex;
+}
+
+.card{
+    width: 350px;
+    border: 1px solid #4DCDFF;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+.card img{
+    width: 300px;
+    margin: 10px;
+}
+
+.btn-project{
+    background-color: #69d5ff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-project:hover{
+    background-color: #4DCDFF;
+}
+
+.btn-project a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #01050a;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+  }
