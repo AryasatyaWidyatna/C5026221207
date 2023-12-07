@@ -38,7 +38,7 @@
       </nav>
 <div class="container">
 
-    @yield('kontek')
+    @yield('konten')
 
     @include('footer')
 </div>
