@@ -70,3 +70,13 @@ Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@index')
 Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@beli');
 Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
 Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangController@hapus');
+
+//route CRUD Topi
+Route::get('/topi','App\Http\Controllers\TopiController@index');
+Route::get('/topi/tambahtopi','App\Http\Controllers\TopiController@tambah');
+Route::post('/topi/store','App\Http\Controllers\TopiController@store');
+Route::get('/topi/edit/{id}','App\Http\Controllers\TopiController@edit');
+Route::post('/topi/update','App\Http\Controllers\TopiController@update');
+Route::get('/topi/hapus/{id}','App\Http\Controllers\TopiController@hapus');
+Route::get('/topi/cari','App\Http\Controllers\TopiController@cari');
+Route::get('/topi/view/{id}','App\Http\Controllers\TopiController@view');
