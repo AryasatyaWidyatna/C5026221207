@@ -80,3 +80,7 @@ Route::post('/topi/update','App\Http\Controllers\TopiController@update');
 Route::get('/topi/hapus/{id}','App\Http\Controllers\TopiController@hapus');
 Route::get('/topi/cari','App\Http\Controllers\TopiController@cari');
 Route::get('/topi/view/{id}','App\Http\Controllers\TopiController@view');
+
+// routes/web.php
+
+Route::get('/homerefresh','App\Http\Controllers\HomeController@index');
